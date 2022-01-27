@@ -46,6 +46,20 @@
 
 ![TimeProfiler_06](../Images/TimeProfiler/TimeProfiler_06.png)
 
+补充描述：
+
+> separate by Thread: 按线程分开分析，更容易揪出哪些吃资源的线程问题
+>
+> Invert Call Tree: 反向输出调用树。把调用层级最深的方法显示在最上面，更容易找到最耗时的操作
+>
+> Hide System Libraries: 隐藏系统库文件，过滤掉各种系统调用，只显示自己代码
+>
+> Flattern Recursion: 拼合递归。将同一递归函数产生的多条堆栈合并为一条【递归函数会调用自己】
+>
+> Top Functions: 找到耗时最多的函数/方法
+
+
+
 
 ### 先通过整体权重，找到用户`API`占比情况
 ![TimeProfiler_05](../Images/TimeProfiler/TimeProfiler_05.png)
